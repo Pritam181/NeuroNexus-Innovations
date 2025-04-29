@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Us NeuroNexus Innovations</title>
+    <link rel="stylesheet" href="taskcomplete.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Connect With NeuroNexus Innovations</h1>
+            <p>We're excited to hear from you! Fill out the form below and join our growing community of innovators.</p>
+        </div>
+
+        <!-- Just a plain ol' form here -->
+        <form>
+            <div class="form-group">
+                <label class="required" for="fullName">Full Name</label>
+                <input type="text" id="fullName" class="form-control" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label class="required" for="contactNumber">Contact Number</label>
+                <input type="tel" id="contactNumber" class="form-control" placeholder="Your phone number" required>
+            </div>
+
+     <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" class="form-control" placeholder="Your complete address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="companyName">Company Name</label>
+                <input type="text" id="companyName" class="form-control" placeholder="Your company or organization">
+       </div>
+
+            <div class="form-group">
+                <label class="required" for="email">Email Address</label>
+        <input type="email" id="email" class="form-control" placeholder="Your email address" required>
+            </div>
+
+         <div class="form-group">
+              <label for="department">Department</label>
+                <select id="department" class="form-control">
+                 <option value="" selected disabled>Select the department you're interested in</option>
+                    <option value="hr">Human Resources</option>
+                    <option value="sales">Sales & Marketing</option>
+                    <option value="development">Product Development</option>
+                    <option value="marketing">Digital Marketing</option>
+                    <option value="others">Other Departments</option>
+         </select>
+            </div>
+
+    <div class="form-group">
+                <label>Gender</label>
+          <div class="radio-group">
+                    <div class="radio-option">
+                 <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+              </div>
+                    <div class="radio-option">
+                        <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label>
+                    </div>
+      <div class="radio-option">
+                  <input type="radio" id="prefer-not-to-say" name="gender" value="prefer-not-to-say">
+                  <label for="prefer-not-to-say">Prefer not to say</label>
+                    </div>
+          </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+
+      <div class="form-footer">
+            <p>By submitting this form, you agree to our <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
